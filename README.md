@@ -8,7 +8,7 @@
 A lightweight Jetpack Compose library for creating beautiful user onboarding experiences, feature highlights, and contextual help. Inspired by [driver.js](https://driverjs.com).
 
 <p align="center">
-  <img src="screenshots/demo.gif" alt="Driver Compose Demo" width="300"/>
+  <img src="drivercompose.gif" alt="Driver Compose Demo" width="300"/>
 </p>
 
 ## Features

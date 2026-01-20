@@ -1,5 +1,6 @@
 # Driver Compose
 
+[![](https://jitpack.io/v/andhikayuana/driver-compose.svg)](https://jitpack.io/#andhikayuana/driver-compose)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![API](https://img.shields.io/badge/API-28%2B-brightgreen.svg)](https://android-arsenal.com/api?level=28)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-blue.svg)](https://kotlinlang.org)
@@ -8,7 +9,7 @@
 A lightweight Jetpack Compose library for creating beautiful user onboarding experiences, feature highlights, and contextual help. Inspired by [driver.js](https://driverjs.com).
 
 <p align="center">
-  <img src="screenshots/demo.gif" alt="Driver Compose Demo" width="300"/>
+  <img src="drivercompose.gif" alt="Driver Compose Demo" width="300"/>
 </p>
 
 ## Features
@@ -22,15 +23,26 @@ A lightweight Jetpack Compose library for creating beautiful user onboarding exp
 
 ## Installation
 
-Add the dependency to your app's `build.gradle.kts`:
+**Step 1.** Add JitPack repository to your root `settings.gradle.kts`:
 
 ```kotlin
-dependencies {
-    implementation("id.yuana:driver-compose:1.0.0")
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
 }
 ```
 
-> **Note:** This library is not yet published to Maven Central. For now, include the `driver-compose` module directly in your project.
+**Step 2.** Add the dependency to your app's `build.gradle.kts`:
+
+```kotlin
+dependencies {
+    implementation("com.github.andhikayuana:driver-compose:1.0.0")
+}
+```
 
 ## Quick Start
 

@@ -22,6 +22,8 @@ A lightweight Jetpack Compose library for creating beautiful user onboarding exp
 
 ## Installation
 
+[![Maven Central](https://img.shields.io/maven-central/v/id.yuana/driver-compose.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/id.yuana/driver-compose)
+
 Add the dependency to your app's `build.gradle.kts`:
 
 ```kotlin
@@ -29,8 +31,6 @@ dependencies {
     implementation("id.yuana:driver-compose:1.0.0")
 }
 ```
-
-> **Note:** This library is not yet published to Maven Central. For now, include the `driver-compose` module directly in your project.
 
 ## Quick Start
 
